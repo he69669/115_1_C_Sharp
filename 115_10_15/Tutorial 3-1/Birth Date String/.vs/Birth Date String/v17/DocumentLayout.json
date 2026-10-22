@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\m303\\Desktop\\115_1_C_Sharp\\115_10_15\\Tutorial 3-1\\Birth Date String\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A70CD176-8F75-4853-8667-9FA42D6C3B76}|Birth Date String\\Birth Date String.csproj|C:\\Users\\m303\\Desktop\\115_1_C_Sharp\\115_10_15\\Tutorial 3-1\\Birth Date String\\birth date string\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A70CD176-8F75-4853-8667-9FA42D6C3B76}|Birth Date String\\Birth Date String.csproj|solutionrelative:birth date string\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A70CD176-8F75-4853-8667-9FA42D6C3B76}|Birth Date String\\Birth Date String.csproj|c:\\users\\m303\\desktop\\115_1_c_sharp\\115_10_15\\tutorial 3-1\\birth date string\\birth date string\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A70CD176-8F75-4853-8667-9FA42D6C3B76}|Birth Date String\\Birth Date String.csproj|C:\\Users\\m303\\Desktop\\115_1_C_Sharp\\115_10_15\\Tutorial 3-1\\Birth Date String\\birth date string\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A70CD176-8F75-4853-8667-9FA42D6C3B76}|Birth Date String\\Birth Date String.csproj|solutionrelative:birth date string\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A70CD176-8F75-4853-8667-9FA42D6C3B76}|Birth Date String\\Birth Date String.csproj|c:\\users\\m303\\desktop\\115_1_c_sharp\\115_10_15\\tutorial 3-1\\birth date string\\birth date string\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A70CD176-8F75-4853-8667-9FA42D6C3B76}|Birth Date String\\Birth Date String.csproj|c:\\users\\m303\\desktop\\115_1_c_sharp\\115_10_15\\tutorial 3-1\\birth date string\\birth date string\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A70CD176-8F75-4853-8667-9FA42D6C3B76}|Birth Date String\\Birth Date String.csproj|solutionrelative:birth date string\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A70CD176-8F75-4853-8667-9FA42D6C3B76}|Birth Date String\\Birth Date String.csproj|C:\\Users\\m303\\Desktop\\115_1_C_Sharp\\115_10_15\\Tutorial 3-1\\Birth Date String\\birth date string\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A70CD176-8F75-4853-8667-9FA42D6C3B76}|Birth Date String\\Birth Date String.csproj|solutionrelative:birth date string\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,10 +24,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -47,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\m303\\Desktop\\115_1_C_Sharp\\115_10_15\\Tutorial 3-1\\Birth Date String\\Birth Date String\\Form1.cs",
               "RelativeDocumentMoniker": "Birth Date String\\Form1.cs",
@@ -60,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [\u8A2D\u8A08]",
               "DocumentMoniker": "C:\\Users\\m303\\Desktop\\115_1_C_Sharp\\115_10_15\\Tutorial 3-1\\Birth Date String\\Birth Date String\\Form1.cs",
               "RelativeDocumentMoniker": "Birth Date String\\Form1.cs",

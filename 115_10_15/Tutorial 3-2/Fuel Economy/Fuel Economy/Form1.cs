@@ -19,22 +19,20 @@ namespace Fuel_Economy
 
         private void calculateButton_Click(object sender, EventArgs e)
         {
-            double kilometers;
-            double liters;
+            double km;// 宣告變數以儲存行駛的公里數。
+            double liters;// 宣告變數以儲存使用的汽油公升數。
+            double kmpl;// 宣告變數以儲存每公升汽油行駛的公里數。
 
-            if (!double.TryParse(milesTextBox.Text, out kilometers) || kilometers < 0 ||
-                !double.TryParse(gallonsTextBox.Text, out liters) || liters <= 0)
-            {
-                MessageBox.Show("請輸入有效的公里數與公升數。", "輸入錯誤", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
+            km = double.Parse(kmTextBox.Text);// 取得使用者輸入的公里數。
+            liters = double.Parse(literTextBox.Text);// 取得使用者輸入的汽油公升數。
+            kmpl = km / liters;// 計算每公升汽油行駛的公里數。
 
-            mpgLabel.Text = (kilometers / liters).ToString("0.##") + " 公里／公升";
+            kmplLabel.Text = kmpl.ToString("F2")+"公里/公升";// 顯示結果，並格式化為小數點後兩位。
         }
 
         private void exitButton_Click(object sender, EventArgs e)
         {
-            // Close the form.
+            // 關閉表單。
             this.Close();
         }
     }

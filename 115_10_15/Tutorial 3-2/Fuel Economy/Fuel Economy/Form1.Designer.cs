@@ -30,10 +30,10 @@
         {
             this.milesPromptLabel = new System.Windows.Forms.Label();
             this.gallonsPromptLabel = new System.Windows.Forms.Label();
-            this.milesTextBox = new System.Windows.Forms.TextBox();
-            this.gallonsTextBox = new System.Windows.Forms.TextBox();
+            this.kmTextBox = new System.Windows.Forms.TextBox();
+            this.literTextBox = new System.Windows.Forms.TextBox();
             this.outputDescriptionLabel = new System.Windows.Forms.Label();
-            this.mpgLabel = new System.Windows.Forms.Label();
+            this.kmplLabel = new System.Windows.Forms.Label();
             this.calculateButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -58,21 +58,21 @@
             this.gallonsPromptLabel.TabIndex = 1;
             this.gallonsPromptLabel.Text = "請輸入使用汽油公升數：";
             // 
-            // milesTextBox
+            // kmTextBox
             // 
-            this.milesTextBox.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.milesTextBox.Location = new System.Drawing.Point(447, 32);
-            this.milesTextBox.Name = "milesTextBox";
-            this.milesTextBox.Size = new System.Drawing.Size(250, 53);
-            this.milesTextBox.TabIndex = 2;
+            this.kmTextBox.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.kmTextBox.Location = new System.Drawing.Point(447, 32);
+            this.kmTextBox.Name = "kmTextBox";
+            this.kmTextBox.Size = new System.Drawing.Size(250, 53);
+            this.kmTextBox.TabIndex = 2;
             // 
-            // gallonsTextBox
+            // literTextBox
             // 
-            this.gallonsTextBox.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.gallonsTextBox.Location = new System.Drawing.Point(447, 95);
-            this.gallonsTextBox.Name = "gallonsTextBox";
-            this.gallonsTextBox.Size = new System.Drawing.Size(250, 53);
-            this.gallonsTextBox.TabIndex = 3;
+            this.literTextBox.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.literTextBox.Location = new System.Drawing.Point(447, 95);
+            this.literTextBox.Name = "literTextBox";
+            this.literTextBox.Size = new System.Drawing.Size(250, 53);
+            this.literTextBox.TabIndex = 3;
             // 
             // outputDescriptionLabel
             // 
@@ -84,15 +84,15 @@
             this.outputDescriptionLabel.TabIndex = 4;
             this.outputDescriptionLabel.Text = "每公升可行駛公里數：";
             // 
-            // mpgLabel
+            // kmplLabel
             // 
-            this.mpgLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.mpgLabel.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.mpgLabel.Location = new System.Drawing.Point(447, 165);
-            this.mpgLabel.Name = "mpgLabel";
-            this.mpgLabel.Size = new System.Drawing.Size(250, 45);
-            this.mpgLabel.TabIndex = 5;
-            this.mpgLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.kmplLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.kmplLabel.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.kmplLabel.Location = new System.Drawing.Point(376, 165);
+            this.kmplLabel.Name = "kmplLabel";
+            this.kmplLabel.Size = new System.Drawing.Size(321, 45);
+            this.kmplLabel.TabIndex = 5;
+            this.kmplLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // calculateButton
             // 
@@ -123,10 +123,10 @@
             this.ClientSize = new System.Drawing.Size(700, 340);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.calculateButton);
-            this.Controls.Add(this.mpgLabel);
+            this.Controls.Add(this.kmplLabel);
             this.Controls.Add(this.outputDescriptionLabel);
-            this.Controls.Add(this.gallonsTextBox);
-            this.Controls.Add(this.milesTextBox);
+            this.Controls.Add(this.literTextBox);
+            this.Controls.Add(this.kmTextBox);
             this.Controls.Add(this.gallonsPromptLabel);
             this.Controls.Add(this.milesPromptLabel);
             this.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
@@ -141,10 +141,10 @@
 
         private System.Windows.Forms.Label milesPromptLabel;
         private System.Windows.Forms.Label gallonsPromptLabel;
-        private System.Windows.Forms.TextBox milesTextBox;
-        private System.Windows.Forms.TextBox gallonsTextBox;
+        private System.Windows.Forms.TextBox kmTextBox;
+        private System.Windows.Forms.TextBox literTextBox;
         private System.Windows.Forms.Label outputDescriptionLabel;
-        private System.Windows.Forms.Label mpgLabel;
+        private System.Windows.Forms.Label kmplLabel;
         private System.Windows.Forms.Button calculateButton;
         private System.Windows.Forms.Button exitButton;
     }

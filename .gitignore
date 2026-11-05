@@ -1,0 +1,84 @@
+# C# Windows Forms / Visual Studio
+# Keep source files, *.sln, *.slnx, *.csproj, *.resx, and project assets tracked.
+
+# Build output (Debug/Release, all target frameworks and platforms)
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug/
+[Rr]elease/
+[xX]64/
+[xX]86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+artifacts/
+
+# Visual Studio local workspace and user preferences
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.VC.db
+*.VC.VC.opendb
+
+# IDE/editor caches
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet restored packages and transient files
+packages/
+**/packages/*
+!**/packages/build/
+.nuget/packages/
+*.nupkg
+*.snupkg
+*.nuget.g.props
+*.nuget.g.targets
+project.assets.json
+project.nuget.cache
+
+# Test and coverage output
+TestResults/
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# Temporary files, logs and backups
+*.tmp
+*.temp
+*.log
+*.bak
+*.old
+*.orig
+*~
+*.swp
+*.swo
+
+# Publish and deployment outputs
+publish/
+PublishProfiles/*.pubxml.user
+*.publishsettings
+
+# Generated files from common .NET tools
+*.AssemblyInfo.cs
+*.AssemblyAttributes.cs
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Secrets / local environment settings (track a safe example instead)
+.env
+.env.local
+.env.*.local
